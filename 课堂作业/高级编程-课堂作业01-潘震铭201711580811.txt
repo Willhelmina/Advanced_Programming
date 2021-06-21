@@ -1,0 +1,13 @@
+print("题目1")
+print("（1）")
+print(chr(68))
+print("（2）")
+print(ord('F'))
+print("--------------")
+print("题目2")
+i=1
+while i < 101:
+	print(chr(i))
+	if(i%8==0):
+		print("\n")
+	i++

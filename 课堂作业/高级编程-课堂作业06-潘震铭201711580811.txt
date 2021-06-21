@@ -1,0 +1,6 @@
+连接状态码：200
+返回对象属性 <class 'str'>
+保存成功：guazi_info.txt
+连接状态码：200
+返回对象属性 <class 'str'>
+保存成功：bj.fang_into.txt

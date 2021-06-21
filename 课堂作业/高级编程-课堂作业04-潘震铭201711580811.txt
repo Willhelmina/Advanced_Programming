@@ -1,0 +1,22 @@
+def changeascii(i):
+    print(chr(i))
+    return
+
+def changenum(j):
+    print(ord(j))
+    return
+
+def printascii(k):
+    while k < 101:
+	    print(chr(k),end='')
+	    if(k%8==0):
+		    print("\n")
+	    k=k+1
+
+changeascii(68)
+changenum('F')
+printascii(1)
+
+
+
+
