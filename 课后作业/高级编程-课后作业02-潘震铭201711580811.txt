@@ -1,0 +1,59 @@
+//练习2.1
+
+import os
+path = "./test/"
+for i in range(50):
+    isExists = os.path.exist(path+"test"+str(i))
+    if not isExists:
+        os.makedirs(path+"test"+str(i))
+    else:
+        continue
+
+//练习2.2
+
+import os
+path = "D:/benkiou/"
+files = os.listdir(path)
+
+count = dict()
+for i in files:
+    if(os.path.isdir(i)):
+        name = 'FileFolder'
+        if name in count:
+            count[name]+=1
+        else:
+            count[name]=1
+    else:
+        name=os.path.splittext(i)[1]
+        if name in count:
+            count[name]+=1
+        else:
+            count[name]=1
+
+name = count.keys()
+for i in name:
+    print(i,count[i])
+
+//课后作业1.1
+
+sum = 0
+for i in range(0,10000)
+    if(i%3==0 or i%7==0 or i%13==0 or i%19==0 or i%23==0 or i%29==0):
+        sum += i
+print(sum)
+
+//课后作业1.2
+
+n=0
+Is=[]
+for ch in range(0x4e00,0x9fa7):
+    print('0x{:x}'.format(ch),end='\t')
+    Is.append(ch)
+    n=n+1
+    if n%256==0 or ch==40870:
+        print()
+        for i in Is:
+            print('{:5}'.format(chr(i)),end='\t')
+        print()
+        n=0
+        Is=[]
