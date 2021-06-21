@@ -1,0 +1,7 @@
+阅读项目列表 参考：教你阅读Python开源项目代码
+cloudmusic
+stanfordcorenlp
+SimpleLM
+abcNLP
+zhihu_spider
+jieba
